@@ -1,0 +1,28 @@
+@media (min-width: 768px){
+ #menuToggle{
+  display: none;
+ }
+ .labelToggle{
+  display: none;
+ }
+ #spanMobile{
+  display: none;
+ }
+ .menu{
+  max-height: initial;
+  position: static;
+  display: flex;
+  background-color: transparent;
+  gap: 1em;
+ }
+ .menu a{
+  border-bottom: none;
+  color: white;
+  transition: transform .2s ease-in-out;
+ }
+ .menu a:hover{
+  transform: translateY(-5px);
+ }
+
+
+}

@@ -1,0 +1,105 @@
+.bg-color{
+  background-color: rgb(201, 47, 240);;
+}
+.container{
+ margin: 1em auto;
+ width: fit-content;
+ box-shadow: 0 0 10px black;
+ padding: 1em;
+ border-radius: .5em;
+}
+
+.container h1{
+ text-align: center;
+ margin-bottom: .5em;
+ font-weight: lighter;
+ color: rgb(201, 47, 240);
+}
+
+#list{
+ list-style-type: none;
+}
+
+.linha{
+ display: flex;
+}
+li{
+  display: flex;
+ justify-content: center;
+ color: rgb(201, 47, 240);
+ border: 1px solid #ccc;
+ padding: 1em;
+ width: 3em;
+ height: 3em;
+ margin: .1em;
+ cursor: pointer;
+}
+
+
+.desmarcada{
+background-color: white;
+}
+.marcada{
+ background-color: rgb(201, 47, 240);
+ color: white;
+}
+.row{
+ display: flex;
+ gap: .2em;
+ margin-top: .5em;
+}
+#jogar, #reset{
+ flex: 1;
+ padding: .5em;
+ cursor: pointer;
+ border: transparent;
+ text-transform: uppercase;
+ color: white;
+ border-radius: .25em;
+}
+#jogar{
+ background-color: green; 
+}
+#reset{
+ background-color: red; 
+}
+
+#jogar:active, #reset:active{
+ transform: scale(.98);
+}
+p{
+ text-transform: uppercase;
+ margin-top: .5em;
+}
+#qtd{
+ color: blue;
+ font-weight: bold;
+}
+#falta{
+ color: red;
+}
+#acertos{
+ color: blue;
+ font-weight: bold;
+}
+#erros{
+ color: red;
+ font-weight: bold;
+}
+.linha{
+ display: flex;
+}
+.acertos{
+ background-color: green;
+ color: white;
+}
+.erros{
+ background-color: red;
+ color: white;
+}
+.opacity{
+ opacity: .5;
+}
+.normal{
+ opacity: 1;
+}

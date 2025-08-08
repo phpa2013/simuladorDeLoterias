@@ -1,0 +1,143 @@
+*{
+ font-family: sans-serif;
+}
+.bg-color{
+ background-color: green;
+}
+
+.container{
+ transform: translateX(-100vw);
+}
+
+.content{
+ margin: 1em auto;
+ max-width: 20em;
+
+}
+#aposteAgora{
+ padding: 1em 2em;
+ background-color: transparent;
+ text-transform: uppercase;
+ color: green;
+ border: 2px solid green;
+ border-radius: .5em;
+}
+#aposteAgora:hover{
+ background-color: green;
+ color: white;
+}
+#aposteAgora:active{
+ transform: scale(.97);
+}
+
+.content h1{
+ text-transform: uppercase;
+ margin-bottom: 1em;
+ color: green;
+ border-bottom:  2px solid green;
+}
+.container{
+ max-width: 90%;
+ box-shadow: 0 0 10px green;
+ margin: 1em auto 0;
+ width: 30em;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 1em 0 0 0;
+ transition: transform 1s ease-in-out;
+}
+
+ul{
+ list-style-type: none;
+}
+
+.linha{
+ display: flex;
+}
+.li-desmarcada{
+ cursor: pointer;
+ color: #ccc;
+border: 2px solid #ccc;
+margin: .1em;
+padding: .5em;
+max-width: 3em;
+width: 2em;
+display: flex;
+justify-content: center;
+opacity: .9;
+}
+.li-desmarcada:hover{
+ opacity: 1;
+ color: green;
+ border: 2px solid green;
+}
+.li-desmarcada:active{
+ transform: scale(.97);
+}
+
+.li-marcada{
+background-color: green;
+color: white;
+cursor: pointer;
+border: 2px solid #ccc;
+margin: .1em;
+padding: .5em;
+max-width: 3em;
+width: 2em;
+display: flex;
+justify-content: center;
+opacity: .9;
+}
+
+.row{
+ display:flex;
+ width: 100%;
+ margin-top: .5em;
+ gap: .5em;
+ padding: .5em;
+ }
+.row button{
+ flex: 1;
+}
+.row button:nth-child(1), .row button:nth-child(2), .row button:nth-child(3){
+ cursor:pointer;
+ padding: .5em;
+ text-transform: uppercase;
+ color: white;
+ border: transparent;
+}
+.row button:nth-child(1){
+ background-color: green;
+}
+.row button:nth-child(2){
+ background-color: red;
+}
+.row button:nth-child(3){
+background-color: yellow;
+color: black;
+}
+
+.row button:nth-child(1):active{
+ transform: scale(.96);
+ box-shadow: 0 0 10px rgb(1, 41, 1) inset;
+}
+.row button:nth-child(2):active{
+ transform: scale(.96);
+ box-shadow: 0 0 10px rgb(78, 2, 2) inset;
+}
+
+p{
+ text-transform: uppercase;
+ border-bottom: 1px solid #ccc;
+ margin: .5em 0;
+}
+#acertos, #contador{
+ color: green;
+ font-weight: bold;
+}
+#erros, #restante{
+ color: red;
+ font-weight: bold;
+}

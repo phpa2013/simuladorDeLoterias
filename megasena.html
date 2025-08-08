@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loterias</title>
+  <link rel="shortcut icon" href="./assets/transferir.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="/style/megasena.css">
+  <link rel="stylesheet" href="./style/breakPoint.css">
+
+</head>
+
+<body>
+
+
+  <main>
+    <div class="bg-color">
+      <header class="headerTop">
+        <div class="logo">
+          <img src="assets/logo.png" alt="loterias">
+          <h1>Loterias.</h1>
+        </div>
+
+        <nav class="navigation">
+
+          <input type="checkbox" id="menuToggle">
+          <label for="menuToggle" class="labelToggle">
+            <span id="spanMobile"></span>
+          </label>
+
+          <div class="menu">
+            <a href="index.html"><img src="./assets/logo.png" class="logoLink" alt="início">Início</a>
+            <a href="lotomania.html"><img src="./assets/logo.png" class="logoLink" alt="lotomania">Lotomania</a>
+            <a href="lotofacil.html"><img src="./assets/logo.png" class="logoLink" alt="lotofacil">LotoFácil</a>
+            <a href="megasena.html"><img src="./assets/logo.png" class="logoLink" alt="mega sena">Mega sena</a>
+
+
+          </div>
+
+        </nav>
+
+
+      </header>
+
+    </div>
+
+    <section class="content">
+      <h1>Mega sena</h1>
+
+      <button id="aposteAgora">Aposte já</button>
+
+    </section>
+
+
+
+
+
+    <section class="container">
+
+      <ul id="list">
+
+      </ul>
+
+
+      <div class="row">
+        <button id="btnApostar">Apostar</button>
+        <button id="btnReset">Reiniciar</button>
+        <button id="btnVoltar">Voltar</button>
+      </div>
+
+      <p>marcados: <span id="contador">0</span> falta <span id="restante">6</span> </p>
+
+      <div class="feedback">
+        <h2>Você acertou: <span id="acertos"></span>, números.</h2>
+        <h3>Você errou: <span id="erros"></span>, números.</h3>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="./megasena.js"></script>
+</body>
+
+</html>

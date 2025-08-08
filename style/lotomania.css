@@ -1,0 +1,90 @@
+.bg-color{
+background-color:orange;
+}
+
+.container{
+ margin: 1em auto 0 auto;
+ width: fit-content;
+ box-shadow: 0 0 10px black;
+ padding: .5em;
+ border-radius: 1em;
+}
+#list{
+  list-style: none;
+  padding: 0;
+}
+.linha {
+  display: flex;
+  gap: .15em;
+  margin-bottom: .5em;
+}
+.desmarcado{
+  width: 2em;
+  height: 2em;
+  background-color: orange;
+  text-align: center;
+  line-height: 2em;
+  border-radius: .25em;
+}
+.marcado{
+    width: 2em;
+  height: 2em;
+  background-color: rgb(129, 86, 5);
+  text-align: center;
+  line-height: 2em;
+  color: white;
+  border-radius: .25em;
+}
+.acertou{
+      width: 2em;
+  height: 2em;
+  background-color: green;
+  text-align: center;
+  line-height: 2em;
+  color: white;
+  border-radius: .25em;
+}
+
+.errou{
+        width: 2em;
+  height: 2em;
+  background-color: red;
+  text-align: center;
+  line-height: 2em;
+  color: white;
+  border-radius: .25em;
+}
+
+.row{
+  display: flex;
+  gap: .15em;
+}
+#apostar, #reset{
+  flex: 1;
+  background-color: blue;
+  color: white;
+  border: transparent;
+  padding: .5em;
+  cursor: pointer;
+}
+#reset{
+  background-color: red;
+}
+
+#apostar:active, #reset:active{
+  transform: scale(.98);
+}
+
+#statusDiv{
+  text-transform: uppercase;
+  margin-top: 1em;
+  border-bottom: 2px solid #ccc;
+}
+#marcado{
+  color: blue;
+  font-weight: bold;
+}
+#falta{
+  color: red;
+  font-weight: bold;
+}
