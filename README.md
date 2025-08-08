@@ -1,3 +1,5 @@
+https://phpa2013.github.io/simuladorDeLoterias/
+
 # 🎰 Simulador de Loteria
 
 Um projeto em **JavaScript, HTML e CSS** que simula apostas em loterias, permitindo gerar números aleatórios, marcar escolhas manuais e verificar a quantidade de acertos.  
