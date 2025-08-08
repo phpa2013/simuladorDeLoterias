@@ -1,4 +1,4 @@
-<a src='https://phpa2013.github.io/simuladorDeLoterias/' />
+<a src='https://phpa2013.github.io/simuladorDeLoterias/'> Clique aqui</a>
 
 # 🎰 Simulador de Loteria
 
